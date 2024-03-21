@@ -1,0 +1,20 @@
+Tabella: auto
+
+Telaio: SMALLINT, PK
+Condizioni del Veicolo: VARCHAR(15), NOT NULL
+Marca: VARCHAR(20), NOT NULL
+Modello: VARCHAR(20), NOT NULL
+Allestimento: VARCHAR(20), NOT NULL
+Euro: TINYINT, NOT NULL
+Emissioni (CO2): SMALLINT, NULL
+Cambio: VARCHAR(20), NOT NULL
+Chilometraggio (KM): SMALLINT, NOT NULL
+Carburante: VARCHAR(20), NOT NULL
+Capienza Serbatoio (litri): TINYINT, NULL
+Potenza (KW): SMALLINT, NULL
+Anno: YEAR, NOT NULL
+Dotazione: VARCHAR(255), NOT NULL
+Colore Carrozzeria: VARCHAR(20), NOT NULL
+Colore Interni: VARCHAR(20), NULL
+Numero Porte: VARCHAR(20), NOT NULL
+Numero Posti: VARCHAR(20), NULL
