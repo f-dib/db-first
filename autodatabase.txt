@@ -1,10 +1,13 @@
 Tabella: auto
 
-Telaio: SMALLINT, PK
+id: SMALLINT, PK
+Prezzo: FLOAT(8, 2), NOT NULL
+Telaio: SMALLINT, UNIQUE
 Condizioni del Veicolo: VARCHAR(15), NOT NULL
 Marca: VARCHAR(20), NOT NULL
 Modello: VARCHAR(20), NOT NULL
 Allestimento: VARCHAR(20), NOT NULL
+Cilindrata: SMALLINT, NULL
 Euro: TINYINT, NOT NULL
 Emissioni (CO2): SMALLINT, NULL
 Cambio: VARCHAR(20), NOT NULL
